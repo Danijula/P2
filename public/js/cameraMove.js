@@ -4,7 +4,7 @@ let cameramoveAllowed = true;
 let posLeft=0, posTop=0;
 const mouseCoordinates = {x: 0, y: 0};
 
-export function updateMouseCoordinates(e){
+function updateMouseCoordinates(e){
     mouseCoordinates.x = e.clientX, mouseCoordinates.y = e.clientY;
 }
 
